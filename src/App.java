@@ -29,16 +29,19 @@ public class App {
             
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite um texto: ");
-        String texto = scanner.nextLine();
-        
-
-        System.out.print("Digite um número inteiro: "); 
-        int numero = scanner.nextInt();
+        System.out.print("Digite um número inteiro para a soma: "); 
+        int numero1 = scanner.nextInt();
         scanner.nextLine();
         
-        System.out.println("\nTexto digitado pelo usuário: " + texto);
-        System.out.println("Número digitado pelo usuário: " + numero);
+        System.out.print("Digite um número inteiro para a soma: "); 
+        int numero2 = scanner.nextInt();
+        scanner.nextLine();
+
+        System.out.println(numero1 + "+" + numero2);
+
+        int resultado =numero1+numero2;        
+
+        System.out.println("Resultado é " + resultado);
 
         scanner.close();
         }
