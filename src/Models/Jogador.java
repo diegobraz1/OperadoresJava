@@ -56,5 +56,13 @@ public class Jogador {
     public void setPeso(int peso) {
         this.peso = peso;
     }
+    public Jogador () {
+        this.nome = "";
+        this.idade = 0;
+        this.posicao = "";
+        this.numCamisa = 0;
+        this.altura = 0;
+        this.peso = 0;        
+    }
 }
   

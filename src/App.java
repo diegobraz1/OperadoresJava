@@ -9,6 +9,25 @@ public class App {
         System.out.println("Número da camisa: " + jogador1.getNumCamisa());
         System.out.println("Altura: " + jogador1.getAltura());
         System.out.println("Peso: " + jogador1.getPeso());
+        
+        Jogador jogador2 = new Jogador();
+
+        jogador2.setNome("Rafael");
+        jogador2.setIdade(18);
+        jogador2.setPosicao("Ala");
+        jogador2.setNumCamisa(32);
+        jogador2.setAtura(178);
+        jogador2.setPeso(60);
+
+        
+        System.out.println("\nNome: " + jogador2.getNome());
+        System.out.println("Idade: " + jogador2.getIdade());
+        System.out.println("Posiçao: " + jogador2.getPosicao());
+        System.out.println("Número da camisa: " + jogador2.getNumCamisa());
+        System.out.println("Altura: " + jogador2.getAltura());
+        System.out.println("Peso: " + jogador2.getPeso());
+        
+        
     }
 }
 
