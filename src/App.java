@@ -1,8 +1,8 @@
-package Models;
-public class app {
+import Models.Jogador;
+public class App {
     public static void main(String[] args) {
         Jogador jogador1 = new Jogador("Diego", 18, "Ala-armador", 0, 166, 60);
-        
+
         System.out.println("Nome: " + jogador1.getNome());
         System.out.println("Idade: " + jogador1.getIdade());
         System.out.println("Posiçao: " + jogador1.getPosicao());
